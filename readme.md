@@ -42,6 +42,13 @@ https://www.docker.com/get-started/
 
 `composer create-project "laravel/laravel=11.*" .`
 
+```
+もし、  
+Project directory "/var/www/." is not empty.   
+というエラーが出たら、srcフォルダの中の .gitkeep は削除して、再度実行してください。  
+```
+
+
 # ③ laravel の環境を修正
 
 #### `config/app.php` の timezone を修正
